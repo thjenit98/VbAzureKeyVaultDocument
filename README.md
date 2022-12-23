@@ -18,11 +18,17 @@
   * Choose region
   * Create name for managed identity
 - Config Azure Role Assignments
-![Setting sevice!](/Imgs/6-config-role-assignments.png)
+![Config sevice!](/Imgs/6-config-role-assignments.png)
   * Choose Scope => Key Vault
   * Choose your subscription
   * Choose your key vault resource
   * Choose role assigned
+- Config Managed Identity Access Control (IAM)
+![Config sevice!](/Imgs/8-mi-iam-step-1.png)
+![Config sevice!](/Imgs/9-mi-iam-step-2.png)
+  * Choose role assigned
+  * Add member to access
+  * Save
 
 > #### 2. Setup Azure Cli
 ``az login``
