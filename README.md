@@ -24,10 +24,10 @@
   * Choose your key vault resource
   * Choose role assigned
 
-> #### 1. Setup Azure Cli
+> #### 2. Setup Azure Cli
 ``az login``
 
-> #### 2. Setup VB.NET Project
+> #### 3. Setup VB.NET Project
 - Create VB.NET Console App
 - Install 2 nuget packages
   * Azure.Identity
